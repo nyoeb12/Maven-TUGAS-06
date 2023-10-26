@@ -1,4 +1,4 @@
-Feature: Login to www.saucedemo.com
+Feature: Login and Invalid Login to www.saucedemo.com
 
   Scenario: Successful login
     Given I am on the login page
@@ -11,3 +11,4 @@ Feature: Login to www.saucedemo.com
     When I enter invalid credentials
     And I click the login button
     Then I should see an error message
+
